@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@-ms-viewport {
+  width: device-width;
+}
+
+@viewport {
+  width: device-width;
+}
+
+article,
+ {
+  display: block;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  border: 0;
+}
+
+body {
+  color: #333;
+  position: relative;
+  width: 100%;
+  min-width: 20em;
+  background: #fff;
+}
+
+
+.block {
+  position: relative;
+  margin: 0 auto;
+  padding: 1.5em 1.25em;
+  max-width: 60em;
+}
+
+
+#outer-wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+#inner-wrap {
+  position: relative;
+  width: 100%;
+}
+
+#main {
+  background: #fff;
+}
+#main .block {
+  padding: 2.625em 1.875em;
+}
+
+
